@@ -27,29 +27,29 @@ public class Main {
 		for(Game game:games) {
 			System.out.println("----------");			
 			System.out.println("Oyunun ismi: "+game.id);
-			System.out.println("Oyunun türü: "+game.gameType);
-			System.out.println("Oyunun Fiyatı: "+game.price);
-			System.out.println("Oyunun IGN Puanı: "+game.rate);		
+			System.out.println("Oyunun tÃ¼rÃ¼: "+game.gameType);
+			System.out.println("Oyunun Fiyati: "+game.price);
+			System.out.println("Oyunun IGN Puani: "+game.rate);		
 			
 		}
 		System.out.println(games.length);
 		
 		Award award1= new Award();
-		award1.id="Yılın Oyunu";
+		award1.id="Yilin Oyunu";
 		award1.name="Hades";
 		award1.year=2020;
 		
 		Award award2= new Award();
-		award2.id="Yılın Bağımsız Oyunu";
+		award2.id="Yilin BaÃ°Ã½msÃ½z Oyunu";
 		award2.name="Hades";
 		award2.year=2020;
 		
 		Award[] awards= {award1,award2};
 		for (Award award: awards) {
 			System.out.println("----------");
-			System.out.println("Ödülün İsmi: "+award.id);
-			System.out.println("Ödülün Yılı: "+award.year);
-			System.out.println("Ödülün Kazananı: "+award.name);
+			System.out.println("Ã–dÃ¼lÃ¼n Ismi: "+award.id);
+			System.out.println("Ã–dÃ¼lÃ¼n Yili: "+award.year);
+			System.out.println("Ã–dÃ¼lÃ¼n Kazanani: "+award.name);
 		}
 		
 		GameManager gamemanager=new GameManager();
