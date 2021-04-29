@@ -2,7 +2,7 @@ package homework;
 
 public class Game {
 	public Game() {
-		System.out.println("Oyun Mağazası programı açıldı");
+		System.out.println("Oyun MagazasÄ± programÄ± acildi");
 		
 		
 		
